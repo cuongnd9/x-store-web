@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { ReposContainer } from './containers';
+import 'antd/dist/antd.css';
 import { Navbar, NotFound } from './components';
 
 function App() {
@@ -10,7 +9,6 @@ function App() {
       <Navbar />
       <div className="container">
         <Switch>
-          <Route path="/" exact component={ReposContainer} />
           <Route path="*" component={NotFound} />
         </Switch>
       </div>

@@ -8,19 +8,6 @@ exports[`App should render correctly in "debug" mode 1`] = `
   >
     <Switch>
       <Route
-        component={
-          Object {
-            "$$typeof": Symbol(react.memo),
-            "WrappedComponent": [Function],
-            "compare": null,
-            "displayName": "Connect(Repos)",
-            "type": [Function],
-          }
-        }
-        exact={true}
-        path="/"
-      />
-      <Route
         component={[Function]}
         path="*"
       />
