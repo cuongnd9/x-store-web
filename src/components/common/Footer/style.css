@@ -1,0 +1,48 @@
+.f-container {
+  padding: 30px 100px;
+}
+
+.f-main {
+  display: flex;
+}
+
+.f-left {
+  width: 100%;
+}
+
+.f-right {
+  width: 100%;
+}
+
+.f-info-item {
+  display: flex;
+  height: 56px;
+}
+
+.f-icon-container {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.f-icon {
+  font-size: 25px;
+  color: #f27c52;
+  background-color: rgba(211, 211, 211, 0.2);
+  padding: 8px;
+  border-radius: 30px;
+}
+
+.f-social {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.f-icon-social {
+  border-radius: 5px;
+}
+
+.f-icon-social:hover {
+  background-color: rgba(211, 211, 211, 0.3);
+}

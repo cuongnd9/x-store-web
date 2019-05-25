@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import 'antd/dist/antd.css';
-import { Navbar, NotFound } from './components';
+import { Navbar, NotFound, Footer } from './components';
 
 function App() {
   return (
@@ -12,6 +12,7 @@ function App() {
           <Route path="*" component={NotFound} />
         </Switch>
       </div>
+      <Footer />
     </Router>
   );
 }
