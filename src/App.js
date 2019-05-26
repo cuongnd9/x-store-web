@@ -1,16 +1,31 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
+import { Row } from 'antd';
+import { Navbar, Footer, Product } from './components';
 import 'antd/dist/antd.css';
-import { Navbar, NotFound, Footer } from './components';
+import './App.css';
 
 function App() {
   return (
     <Router>
       <Navbar />
       <div className="container">
-        <Switch>
+        {/* <Switch>
           <Route path="*" component={NotFound} />
-        </Switch>
+        </Switch> */}
+        <Row>
+          <Product />
+          <Product />
+          <Product />
+          <Product />
+          <Product />
+          <Product />
+          <Product />
+          <Product />
+          <Product />
+          <Product />
+          <Product />
+        </Row>
       </div>
       <Footer />
     </Router>

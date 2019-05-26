@@ -6,12 +6,21 @@ exports[`App should render correctly in "debug" mode 1`] = `
   <div
     className="container"
   >
-    <Switch>
-      <Route
-        component={[Function]}
-        path="*"
-      />
-    </Switch>
+    <Row
+      gutter={0}
+    >
+      <Product />
+      <Product />
+      <Product />
+      <Product />
+      <Product />
+      <Product />
+      <Product />
+      <Product />
+      <Product />
+      <Product />
+      <Product />
+    </Row>
   </div>
   <Footer />
 </BrowserRouter>
