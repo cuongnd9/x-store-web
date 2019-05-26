@@ -13,5 +13,6 @@ exports[`App should render correctly in "debug" mode 1`] = `
       />
     </Switch>
   </div>
+  <Footer />
 </BrowserRouter>
 `;
