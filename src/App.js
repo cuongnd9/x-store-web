@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { Row } from 'antd';
-import { Navbar, Footer, Product } from './components';
+import { Navbar, Footer, Product, Pagination } from './components';
 import 'antd/dist/antd.css';
 import './App.css';
 
@@ -18,14 +18,8 @@ function App() {
           <Product />
           <Product />
           <Product />
-          <Product />
-          <Product />
-          <Product />
-          <Product />
-          <Product />
-          <Product />
-          <Product />
         </Row>
+        <Pagination />
       </div>
       <Footer />
     </Router>

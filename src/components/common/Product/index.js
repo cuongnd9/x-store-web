@@ -8,17 +8,19 @@ function Product() {
     'https://store.storeimages.cdn-apple.com/4982/as-images.apple.com' +
     '/is/image/AppleInc/aos/published/images/m/bp/mbp13touch' +
     '/space/mbp13touch-space-select-201807?wid=1808&hei=1680&fmt=jpeg&qlt=80&.v=1529520060550';
+
+  const isNew = Math.random() > 0.5;
+
+  const badgeIcon = (
+    <p className="product-badge" style={{ backgroundColor: !isNew ? '#ff4d4f' : '#73d13d' }}>
+      {!isNew ? '-20%' : 'New'}
+    </p>
+  );
+
   return (
     <Col sx={24} sm={12} md={8} lg={6} xl={6}>
       <div className="product">
-        {/* <Badge count={<p className="product-badge" style={{backgroundColor: '#73d13d'}}>New</p>}> */}
-        <Badge
-          count={
-            <p className="product-badge" style={{ backgroundColor: '#ff4d4f' }}>
-              -20%
-            </p>
-          }
-        >
+        <Badge count={badgeIcon}>
           <img className="product-image" alt="Product" src={imageUrl} />
         </Badge>
         <Link className="product-name" to="/">
