@@ -38,8 +38,8 @@ function Product() {
         </small>
         {Math.random() < 0.5 ? (
           <div className="btn-group">
-            <Button type="primary" icon="shopping-cart" block>
-              Select
+            <Button type="primary" icon="eye" block>
+              View Product
             </Button>
             <Button className="btn-favorite" type="danger" icon="heart" />
           </div>
