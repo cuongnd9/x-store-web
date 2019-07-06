@@ -3,7 +3,17 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg)](#contributors)
 [![Build Status](https://travis-ci.org/cuongw/mac-store.svg?branch=master)](https://travis-ci.org/cuongw/mac-store)
 
-> 🚀🛒 E-Commerce site using MERN Stack.
+> 🚀🛒 E-Commerce site using Microservice Architecture.
+
+## Stack
+
+- JavaScript
+- ES6
+- React
+- Redux
+- Node.js
+- Express
+- Go
 
 ## Quick start
 
