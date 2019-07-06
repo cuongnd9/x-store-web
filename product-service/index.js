@@ -1,12 +1,9 @@
-require('dotenv').config();
+import dotenv from 'dotenv';
+import express from 'express';
+import bodyParser from 'body-parser';
+import cors from 'cors';
 
-const express = require('express');
-const bodyParser = require('body-parser');
-const cors = require('cors');
-const mongoose = require('mongoose');
-
-// Connect MongoDB.
-mongoose.connect(process.env.MONGODB_URL, { useNewUrlParser: true });
+dotenv.config();
 
 // Port.
 const port = process.env.PORT || 8000;
