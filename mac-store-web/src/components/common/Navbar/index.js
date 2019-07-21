@@ -56,10 +56,15 @@ class Navbar extends Component {
         <div className="menu-icons" style={{ width: visibleSearch ? '100%' : '40%' }}>
           {visibleSearch && (
             <>
-              <Icon type="search" className="menu-icons-item" style={{ marginLeft: 0 }} />
+              <Icon
+                type="search"
+                className="menu-icons-item"
+                style={{ marginLeft: '0px', marginRight: '20px' }}
+              />
               <Input
                 type="text"
                 placeholder="Enter your product..."
+                size="large"
                 className="search-input"
                 required
               />
