@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: column;
   background-color: #f27c52;
+  border-radius: 2px;
 }
 
 .newsletter-icon {

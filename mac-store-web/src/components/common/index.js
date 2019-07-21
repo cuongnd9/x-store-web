@@ -4,3 +4,4 @@ export { default as Product } from './Product';
 export { default as Pagination } from './Pagination';
 export { default as Carousel } from './Carousel';
 export { default as Newsletter } from './Newsletter';
+export { default as NewsletterPopUp } from './NewsletterPopUp';

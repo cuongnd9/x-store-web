@@ -1,7 +1,15 @@
 import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { Row } from 'antd';
-import { Navbar, Footer, Product, Pagination, Carousel, Newsletter } from './components';
+import {
+  Navbar,
+  Footer,
+  Product,
+  Pagination,
+  Carousel,
+  Newsletter,
+  NewsletterPopUp,
+} from './components';
 import 'antd/dist/antd.css';
 import './App.css';
 
@@ -24,6 +32,7 @@ function App() {
         <Newsletter />
       </div>
       <Footer />
+      <NewsletterPopUp />
     </Router>
   );
 }

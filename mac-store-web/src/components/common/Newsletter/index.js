@@ -7,12 +7,9 @@ const { Search } = Input;
 class Newsletter extends Component {
   render() {
     return (
-      <div className="newsletter">
+      <div className="newsletter" style={{ borderRadius: '5px' }}>
         <div className="newsletter-icon">
-          <img
-            alt="newsletter-icon"
-            src={`${process.env.PUBLIC_URL}/images/newsletter-white.png`}
-          />
+          <img alt="newsletter-icon" src={`${process.env.PUBLIC_URL}/images/newsletter.png`} />
         </div>
         <div className="wrapped-newsletter-title">
           <p className="newsletter-title">Get our newsletter!</p>
