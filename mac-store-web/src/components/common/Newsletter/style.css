@@ -1,0 +1,39 @@
+.newsletter {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: #f27c52;
+  border-radius: 5px;
+}
+
+.newsletter-icon {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.newsletter-icon img {
+  height: 48px;
+  width: 48px;
+}
+
+.wrapped-newsletter-title {
+  text-align: center;
+}
+
+.newsletter-title {
+  display: inline-block;
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: 'Raleway', sans-serif;
+  color: #ffffff;
+  border-bottom: 3px solid #1a8ffc;
+}
+
+.newsletter-content {
+  text-align: center;
+  font-size: 13px;
+  font-weight: bolder;
+  font-family: 'Raleway', sans-serif;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
