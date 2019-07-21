@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Products, Pagination, Carousel, Newsletter, NewsletterPopUp } from '../components';
+import { Products, Pagination, Carousel, Newsletter, NewsletterPopUp } from '../../components';
+import './style.css';
 
 class Home extends Component {
   render() {
