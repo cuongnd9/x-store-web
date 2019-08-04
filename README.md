@@ -2,18 +2,13 @@
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg)](#contributors)
 [![Build Status](https://travis-ci.org/cuongw/mac-store.svg?branch=master)](https://travis-ci.org/cuongw/mac-store)
+[![StackShare](http://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](https://stackshare.io/cuongw/mac-store-stack)
 
 > 🚀🛒 E-Commerce site using Microservice Architecture.
 
 ## Stack
 
-- JavaScript
-- ES6
-- React
-- Redux
-- Node.js
-- Express
-- Go
+![Stack](./images/stack.png)
 
 ## Quick start
 
