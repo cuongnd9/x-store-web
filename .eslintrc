@@ -5,7 +5,7 @@
     "allowImportExportEverywhere": false,
     "codeFrame": false
   },
-  "extends": ["airbnb", "prettier"],
+  "extends": ["airbnb", "prettier", "plugin:compat/recommended"],
   "env": {
     "browser": true,
     "jest": true
@@ -59,6 +59,24 @@
     "object-curly-newline": [0],
     "function-paren-newline": [0],
     "no-restricted-globals": [0],
-    "require-yield": [1]
+    "require-yield": [1],
+    "compat/compat": "error",
+    "jsx-a11y/label-has-associated-control": [
+      "error",
+      {
+        "required": {
+          "some": ["nesting", "id"]
+        }
+      }
+    ],
+    "jsx-a11y/label-has-for": [
+      "error",
+      {
+        "required": {
+          "some": ["nesting", "id"]
+        }
+      }
+    ],
+    "react/jsx-one-expression-per-line": [0]
   }
 }
