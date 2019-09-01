@@ -24,12 +24,12 @@ class Navbar extends Component {
         {!visibleSearch && (
           <Link to="/" className="logo">
             <img
-              alt="Mac Store"
+              alt="X Store"
               src={`${process.env.PUBLIC_URL}/images/logo.png`}
               className="logo-img"
             />
             <Text className="logo-text">
-              <span className="logo-text-highlight">Mac</span>
+              <span className="logo-text-highlight">X</span>
               Store
             </Text>
           </Link>
