@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/x-store/x-store-web.svg?branch=master)](https://travis-ci.org/x-store/x-store-web)
 [![Hits-of-Code](https://hitsofcode.com/github/x-store/x-store-web)](https://hitsofcode.com/view/github/x-store/x-store-web)
 [![GitHub](https://img.shields.io/github/license/x-store/x-store-web.svg)](https://github.com/x-store/x-store-web/blob/master/LICENSE)
-[![StackShare](http://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](https://stackshare.io/cuongw/x-store-stack)
+[![StackShare](http://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](https://stackshare.io/cuongw/x-store)
 
 > 🌳🚀 Client web application for X Store.
 
