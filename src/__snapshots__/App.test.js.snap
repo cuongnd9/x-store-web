@@ -6,17 +6,17 @@ exports[`App should render correctly in "debug" mode 1`] = `
   <div
     className="container"
   >
-    <Carousel />
-    <Row
-      className="products"
-      gutter={0}
-    >
-      <Product />
-      <Product />
-      <Product />
-      <Product />
-    </Row>
-    <Pagination />
+    <Switch>
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/"
+      />
+      <Route
+        component={[Function]}
+        path="*"
+      />
+    </Switch>
   </div>
   <Footer />
 </BrowserRouter>
