@@ -1,6 +1,5 @@
-import axios from 'axios';
+import request from 'utils/request';
 
-export function* fetchRepos() {
-  const response = yield axios.get('https://api.github.com/users/cuongw/repos');
-  return response.data ? response.data: [];
-};
+export function fetchRepos() {
+  return request('https://api.github.com/users/cuongw/repos');
+}
