@@ -56,14 +56,12 @@ function Login({ form }) {
               valuePropName: 'checked',
               initialValue: true,
             })(<Checkbox>Remember me</Checkbox>)}
-            <a href="">Forgot password</a>
+            <a href="https://github.com/x-store">Forgot password</a>
           </div>
           <Button type="primary" htmlType="submit" style={{ display: 'block', width: '100%' }}>
             Log in
           </Button>
-          Or
-          {" "}
-          <a href="">register now!</a>
+          Or <a href="https://github.com/x-store">register now!</a>
         </Form.Item>
       </Form>
       <ReactCanvasNest
