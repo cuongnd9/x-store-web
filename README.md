@@ -1,29 +1,24 @@
-# Mac Store
+# X Store Web
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg)](#contributors)
-[![Build Status](https://travis-ci.org/cuongw/mac-store.svg?branch=master)](https://travis-ci.org/cuongw/mac-store)
-[![StackShare](http://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](https://stackshare.io/cuongw/mac-store-stack)
+[![Build Status](https://travis-ci.org/x-store/x-store-web.svg?branch=master)](https://travis-ci.org/x-store/x-store-web)
+[![Hits-of-Code](https://hitsofcode.com/github/x-store/x-store-web)](https://hitsofcode.com/view/github/x-store/x-store-web)
+[![GitHub](https://img.shields.io/github/license/x-store/x-store-web.svg)](https://github.com/x-store/x-store-web/blob/master/LICENSE)
+[![StackShare](http://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](https://stackshare.io/cuongw/x-store-stack)
 
-> 🚀🛒 E-Commerce site using Microservice Architecture.
-
-## Stack
-
-![Stack](./images/stack.png)
+> 🌳🚀 Client web application for X Store.
 
 ## Quick start
 
 ```sh
 # Install dependencies
-$ cd server && yarn
 $ yarn
 # Run app
-$ cd server && yarn start
 $ yarn start
 ```
 
 ## Contributors
 
-[![](https://sourcerer.io/fame/tvc12/cuongw/mac-store/images/0)](https://sourcerer.io/fame/tvc12/cuongw/mac-store/links/0)[![](https://sourcerer.io/fame/tvc12/cuongw/mac-store/images/1)](https://sourcerer.io/fame/tvc12/cuongw/mac-store/links/1)[![](https://sourcerer.io/fame/tvc12/cuongw/mac-store/images/2)](https://sourcerer.io/fame/tvc12/cuongw/mac-store/links/2)[![](https://sourcerer.io/fame/tvc12/cuongw/mac-store/images/3)](https://sourcerer.io/fame/tvc12/cuongw/mac-store/links/3)[![](https://sourcerer.io/fame/tvc12/cuongw/mac-store/images/4)](https://sourcerer.io/fame/tvc12/cuongw/mac-store/links/4)[![](https://sourcerer.io/fame/tvc12/cuongw/mac-store/images/5)](https://sourcerer.io/fame/tvc12/cuongw/mac-store/links/5)[![](https://sourcerer.io/fame/tvc12/cuongw/mac-store/images/6)](https://sourcerer.io/fame/tvc12/cuongw/mac-store/links/6)[![](https://sourcerer.io/fame/tvc12/cuongw/mac-store/images/7)](https://sourcerer.io/fame/tvc12/cuongw/mac-store/links/7)
+[![](https://sourcerer.io/fame/cuongw/x-store/x-store-web/images/0)](https://sourcerer.io/fame/cuongw/x-store/x-store-web/links/0)[![](https://sourcerer.io/fame/cuongw/x-store/x-store-web/images/1)](https://sourcerer.io/fame/cuongw/x-store/x-store-web/links/1)[![](https://sourcerer.io/fame/cuongw/x-store/x-store-web/images/2)](https://sourcerer.io/fame/cuongw/x-store/x-store-web/links/2)[![](https://sourcerer.io/fame/cuongw/x-store/x-store-web/images/3)](https://sourcerer.io/fame/cuongw/x-store/x-store-web/links/3)[![](https://sourcerer.io/fame/cuongw/x-store/x-store-web/images/4)](https://sourcerer.io/fame/cuongw/x-store/x-store-web/links/4)[![](https://sourcerer.io/fame/cuongw/x-store/x-store-web/images/5)](https://sourcerer.io/fame/cuongw/x-store/x-store-web/links/5)[![](https://sourcerer.io/fame/cuongw/x-store/x-store-web/images/6)](https://sourcerer.io/fame/cuongw/x-store/x-store-web/links/6)[![](https://sourcerer.io/fame/cuongw/x-store/x-store-web/images/7)](https://sourcerer.io/fame/cuongw/x-store/x-store-web/links/7)
 
 ## License
 
