@@ -30,7 +30,7 @@ function Footer() {
           </div>
         </div>
         <div className="f-right">
-          <p style={{ fontWeight: 'bold', fontSize: '20px' }}>About Mac Store</p>
+          <p style={{ fontWeight: 'bold', fontSize: '20px' }}>About X Store</p>
           <p style={{ margin: '30px 0', lineHeight: '25px' }}>
             Lorem mogetec vulputate dolor vel venenatis hendrerit. Praese ey lorem pharetra nec,
             mogetec vulputate dolor vel venenatis hendrerit. Praese ey mogetec vulputate mogetec
@@ -61,7 +61,7 @@ function Footer() {
           </a>
         </span>
         <br />
-        <small>© 2019 Mac Store</small>
+        <small>© 2019 X Store</small>
       </p>
     </div>
   );

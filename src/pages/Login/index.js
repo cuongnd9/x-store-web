@@ -20,12 +20,12 @@ function Login({ form }) {
     <div className="login-container">
       <div className="login-logo">
         <img
-          alt="Mac Store"
+          alt="X Store"
           src={`${process.env.PUBLIC_URL}/images/logo.png`}
           className="login-logo-img"
         />
         <Text className="login-logo-text">
-          <span className="login-logo-text-highlight">Mac</span>
+          <span className="login-logo-text-highlight">X</span>
           Store
         </Text>
       </div>
