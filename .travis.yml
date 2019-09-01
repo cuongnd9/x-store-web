@@ -10,7 +10,7 @@ script:
 deploy:
   provider: surge
   skip_cleanup: true
-  domain: http://macstore.surge.sh
+  domain: http://xstore.surge.sh
   project: ./build/
 on:
   branch: master
