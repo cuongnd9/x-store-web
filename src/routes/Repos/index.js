@@ -26,7 +26,7 @@ function Repos() {
             <Col key={repo.id} span={12}>
               <Card
                 title={repo.name}
-                extra={<Link to={`/${repo.name}`}>More</Link>}
+                extra={<Link to={`/repo/${repo.name}`}>More</Link>}
                 style={{ marginBottom: '15px' }}
               >
                 <p>{repo.description}</p>
