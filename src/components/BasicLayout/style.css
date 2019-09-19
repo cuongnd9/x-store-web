@@ -1,0 +1,7 @@
+.container {
+  padding: 30px 100px;
+  background-color: rgba(211, 211, 211, 0.1);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
