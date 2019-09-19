@@ -1,18 +1,5 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import { Login, Page404 } from 'pages';
-import Main from './Main';
-
-function RootRoute() {
-  return (
-    <Router>
-      <Switch>
-        <Route path="/login" component={Login} />
-        <Route path="/" component={Main} />
-        <Route component={Page404} />
-      </Switch>
-    </Router>
-  );
-}
-
-export default RootRoute;
+export { default as Login } from './Login';
+export { default as Home } from './Home';
+export { default as Repos } from './Repos';
+export { default as RepoDetail } from './RepoDetail';
+export { default as NotFound } from './NotFound';

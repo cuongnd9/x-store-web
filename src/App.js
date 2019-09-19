@@ -1,10 +1,9 @@
 import React from 'react';
-import RootRoute from 'routes';
+import RouterConfig from 'common/router';
 import 'antd/dist/antd.css';
-import './App.css';
 
 function App() {
-  return <RootRoute />;
+  return <RouterConfig />;
 }
 
 export default App;
